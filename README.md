@@ -2,25 +2,29 @@
 
 ## Description
 
-This full-stack real estate web application allows users to create listings for their properties, both for renting and selling. The app features user authentication with Firebase, a Firestore database for data storage, and a map integration to pinpoint the location of each listing. Additionally, there is an offer section that highlights listings with special deals.
+This full-stack real estate web application (Phone view first) allows users to create listings for their properties, both for renting and selling. The app features user authentication with JWT tokens and storage using mongoDb database and a map integration to pinpoint the location of each listing. Additionally, there is an offer section that highlights listings with special deals.
 
-## Features
+# Technologies Used
 
-- **User Authentication:** Secure user authentication with Firebase, enabling users to sign up, log in, and manage their accounts.
+## Frontend
 
-- **Property Listings:** Users can create detailed property listings, specifying whether the property is available for rent or sale.
+- Developed using **React.js** for a dynamic and interactive user interface.
+- Utilized state management libraries for efficient data handling.
+- Integrated third-party components for features like image sliders and maps.
 
-- **Map Integration:** Each listing includes a map pointing to the property's location, providing a visual representation for users.
+## Backend
 
-- **Offer Section:** A dedicated section showcases listings with special offers, making it easy for users to find deals.
+- Built a **Node.js** server using **Express** for handling API requests.
+- **MongoDB** as the database for storing and managing property listings and user data.
 
-## Technologies Used
+## Authentication
 
-- **Frontend:** React.js
+- Implemented secure user authentication using **JWT (JSON Web Tokens)**.
 
-- **Backend:** Firebase (Firestore)
+## Cloud Storage
 
-- **Map Integration:** [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)
+- Stored and retrieved property images using cloud storage services like **Firebase Storage**.
+
 
 ## Screenshots
 
@@ -35,55 +39,6 @@ This full-stack real estate web application allows users to create listings for 
 
 <!-- Add more screenshots and captions as needed -->
 
-## Setup
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/your-username/real-estate-app.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd real-estate-app
-    ```
-
-3. **Install dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-4. **Set up Firebase:**
-    - Create a Firebase project and configure authentication.
-    - Set up Firestore database.
-    - Add Firebase config details to the project.
-
-5. **Start the development server:**
-
-    ```bash
-    npm start
-    ```
-
-6. **Open the app in your browser:**
-
-    [https://house-market-place-backend.onrender.com](https://house-market-place-backend.onrender.com)
-
-## Contributing
-
-Contributions are welcome! Please follow the [contributing guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgements
-
-- [Firebase Documentation](https://firebase.google.com/docs)
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Google Maps JavaScript API Documentation](https://developers.google.com/maps/documentation/javascript/overview)
-
 ## Contact
 
-For any inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries, please contact [singhshubham3006.ss@gmail.com](mailto:your-singhshubham3006.ss@gmail.com).
