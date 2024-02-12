@@ -2,7 +2,7 @@
 
 ## Description
 
-This full-stack real estate web application (Phone view first) allows users to create listings for their properties, both for renting and selling. The app features user authentication with JWT tokens and storage using mongoDb database and a map integration to pinpoint the location of each listing. Additionally, there is an offer section that highlights listings with special deals.
+This full-stack real estate web application, designed with a mobile-first approach, enables users to create property listings for both renting and selling. Originally based on a Firebase-backed application, it has been modified to utilize MongoDB for data storage, JWT tokens for authentication, and features an integrated map to showcase listing locations. Explore the enhanced version, previously hosted at [House Market Place](https://house-market-place-lilac.vercel.app/).
 
 # Technologies Used
 
